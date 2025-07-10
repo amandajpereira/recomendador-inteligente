@@ -10,19 +10,24 @@ Você digita o nome de um alimento (que pode ou não estar presente na base de d
 
 - Python  
 - Pandas  
-- Scikit-learn (TF-IDF e Similaridade Cosseno)  
+- Scikit-learn (TF-IDF e Similaridade Cosseno)
+- Streamlit	Interface web 
 
 ---
 
 ## 📦 Como rodar o projeto
+### 🌐 **Online** (recomendado):  
+Acesse diretamente pelo link:  
+👉 [https://recomendador-inteligente.streamlit.app/](https://recomendador-inteligente-rfmtf3abodymyungq8tf54.streamlit.app/)
 
-1. Clone o repositório:
+### 💻 Localmente:
 git clone 
+
 cd recomendador-inteligente
-2. Instale as dependências:
-pip install pandas scikit-learn
-3. Execute o sistema:
-python recomendador.py
+
+pip install -r requirements.txt
+
+streamlit run app.py
 
 ## 💡 Como funciona
 O sistema usa TF-IDF para transformar as descrições em vetores numéricos
